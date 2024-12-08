@@ -1,0 +1,95 @@
+body{
+    margin: 0   ;
+    font-family: "Rubik", serif;
+}
+header {
+    /* background-color: rgb(151, 244, 115);  */
+    border-top-width: 0;
+    width: 98%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 4px;
+    font-size: 20px;
+    font-weight: 400; 
+
+}
+header nav{
+    /* background-color: rgb(43, 41, 40); */
+    display: flex;
+    padding-inline: 8px;
+    margin-inline: 0;
+    width: 60%;
+    gap: 20px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header .logocontainer{
+    /* background-color: rgb(199, 190, 229); */
+    color: white;
+    width: 200px;
+    padding-inline: 10px;
+
+}
+.logo img{
+        width: 100%; 
+}
+header .lang{
+        /* background-color: red; */
+        width: 13%;
+        text-align: center;
+}
+header .login{
+    background: #fff;
+    width: 10%;
+    border-radius: 18px  ;
+    color: #000;
+    text-align: center;
+    padding-block: 6px;
+}
+.main-wrapper{
+    /* background-color: aqua; */
+    height: 100vh;
+    background-size : cover;
+    background-image:  linear-gradient( to bottom,#000000aa,#00000011,#00000033),
+    url('./img/bg1.webp');
+    background-repeat: no-repeat;
+    color: white;
+}
+.content{
+    /* background-color: antiquewhite; */
+    text-align: center;
+    margin: 150px  100px;
+    margin-bottom: 20px;    
+}
+.text-s{
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.create{
+    align-items: center;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+
+}
+.text-c{
+    background-image:  linear-gradient( to top,#ec6863,#fb5d5d,#f93051);
+    border-radius: 18px  ;
+    height: 10px;
+    margin-top: 10px;
+    padding-top: 8px;
+    width: 180px;
+    height: 30px;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 300px;
+}
