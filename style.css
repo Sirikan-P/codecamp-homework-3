@@ -1,95 +1,137 @@
 body{
     margin: 0   ;
-    font-family: "Rubik", serif;
 }
 header {
     /* background-color: rgb(151, 244, 115);  */
-    border-top-width: 0;
-    width: 98%;
     display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 4px;
-    font-size: 20px;
-    font-weight: 400; 
-
+    justify-content: right;
 }
 header nav{
-    /* background-color: rgb(43, 41, 40); */
+    /* background-color: antiquewhite; */
     display: flex;
-    padding-inline: 8px;
-    margin-inline: 0;
-    width: 60%;
-    gap: 20px;
+    padding: 8px;
+    width: 10%;
+    justify-content: left;
+    gap: 16px;
+    font-family: "Prompt", sans-serif;
+    font-size: 10px;
+    font-weight: 50;    
 }
 header a{
     text-decoration: none;
     color: white;
-}
-header .logocontainer{
-    /* background-color: rgb(199, 190, 229); */
-    color: white;
-    width: 200px;
-    padding-inline: 10px;
-
-}
-.logo img{
-        width: 100%; 
-}
-header .lang{
-        /* background-color: red; */
-        width: 13%;
-        text-align: center;
-}
-header .login{
-    background: #fff;
-    width: 10%;
-    border-radius: 18px  ;
-    color: #000;
-    text-align: center;
-    padding-block: 6px;
+    letter-spacing: 2px;
 }
 .main-wrapper{
     /* background-color: aqua; */
     height: 100vh;
     background-size : cover;
     background-image:  linear-gradient( to bottom,#000000aa,#00000011,#00000033),
-    url('./img/bg1.webp');
+    url('https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-repeat: no-repeat;
+    font-family: "Prompt", sans-serif;
     color: white;
+  
+
 }
 .content{
     /* background-color: antiquewhite; */
     text-align: center;
     margin: 150px  100px;
-    margin-bottom: 20px;    
-}
-.text-s{
-    font-size: 60px;
-    letter-spacing: 1px;
-    color: #fff;
-}
-.create{
-    align-items: center;
-    display: flex;
-    gap: 2px;
-    justify-content: center;
-
+    margin-bottom: 20px;
+    
 }
 .text-c{
-    background-image:  linear-gradient( to top,#ec6863,#fb5d5d,#f93051);
-    border-radius: 18px  ;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+
+}
+.text-s{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 2px;
+}
+.text-percent{
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+}
+.progress{
+width: 20%;
+margin-left: 40%;
+margin-right: 40%;
+
+    /* background-color: antiquewhite; */
+}
+.progress-bar{
+    display: flex;
+    height: 10px;
+    width: 100%;
+  
+}
+.progress-gra-top{ 
+    background-image:  linear-gradient( to top,#00000066,#00000022,#00000000);
     height: 10px;
     margin-top: 10px;
-    padding-top: 8px;
-    width: 180px;
-    height: 30px;
-    display: flex;
-    gap: 2px;
-    justify-content: center;
 }
-footer{
+.progress-gra-bottom{ 
+    background-image:  linear-gradient( to bottom,#00000066,#00000022,#00000000);
+    height: 10px;
+    margin-bottom: 0px;
+}
+.progress80{
+    background-color: rgb(169, 228, 227);
+    width: 80%;
+    height: 10px;
+}
+.progress20{
+    background-color: rgb(153, 152, 151);
+    width: 20%;
+    height: 10px;
+}
+.percent{
+    /* background-color: antiquewhite; */
     display: flex;
-    justify-content:flex-end;
-    margin-top: 300px;
+    height: 10px;
+    justify-content: space-between; /*vertical*/
+    margin-top: 0px;
+    
+}
+.content-b{
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+.text-n{
+    background-color: rgb(169, 228, 227);
+    font-size: 10px;
+    text-transform: capitalize;
+    width: 100px;
+    text-align: center;
+    padding: 4px;
+}
+
+.logo{
+    /* background-color: rgb(169, 228, 227); */
+    width: 40px;
+    height: 40px; 
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logocontainer{
+    /* background-color: rgb(199, 190, 229); */
+    color: white;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    font-size: 24px;
+
 }
